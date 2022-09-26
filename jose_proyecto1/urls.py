@@ -21,4 +21,5 @@ from django.app2 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('mensaje',views.texto),
+    path('reloj/',views.tiempo)
 ]
